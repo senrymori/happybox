@@ -1,1 +1,17 @@
 @import "./default.css";
+
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-lang {
+    display: flex;
+    justify-content: space-between;
+}
