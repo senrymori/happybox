@@ -1,6 +1,9 @@
 @import "./default.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=PT+Serif:ital@1&display=swap');
+body {
+    font-family: "Rubik";
+}
+
 
 .wrapper {
     margin: 0 auto;
