@@ -17,6 +17,7 @@ header {
 .header-lang {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-transform: uppercase;
 }
 
@@ -29,6 +30,7 @@ header {
 .header-between {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 13%;
 }
 
@@ -42,10 +44,11 @@ header {
 }
 
 .header-logo {
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
-    align-items: center;
 }
 
 .header-between:last-child {
