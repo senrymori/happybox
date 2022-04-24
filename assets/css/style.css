@@ -41,8 +41,11 @@ header {
     font-size: 14px;
 }
 
-.lang:first-child {
+.lang.active {
     font-weight: 900;
+}
+
+.lang:first-child {
     margin-right: 9px;
 }
 
@@ -56,4 +59,74 @@ header {
 
 .header-between:last-child {
     justify-content: end;
+}
+
+.main .container {
+    height: 350px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-large {
+    display: flex;
+    width: 64%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .container:first-child {
+    margin-bottom: 30px;
+}
+
+.main-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.main-medium {
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+}
+
+.main-small {
+    width: 47%;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    transition: 0.4s;
+}
+
+.cover:hover {
+    background-color: #000000;
+    animation: scaletest 2s infinite;
+}
+
+@keyframes scaletest {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
