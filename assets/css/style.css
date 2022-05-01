@@ -4,6 +4,10 @@ body {
   font-family: "Rubik";
 }
 
+section {
+    margin-bottom: 80px;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1100px;
@@ -129,9 +133,17 @@ header {
   }
 }
 
+.catalog h2 {
+    margin-bottom: 30px;
+}
+
 .catalog .container {
   height: 350px;
   margin-bottom: 30px;
+}
+
+.catalog .container:last-child {
+    margin-bottom: 0;
 }
 
 .miniblock {
@@ -141,8 +153,6 @@ header {
 }
 
 .catalog-text {
-  width: 336px;
-  height: 48px;
   left: 0px;
   top: 60px;
   font-style: normal;
@@ -154,11 +164,80 @@ header {
 
 .catalog-medium {
   width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.move {
-  display: flex;
-  width: 100%;
-  height: 50%;
-  align-items: flex-end;
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.info-wrapper {
+    margin-bottom: 50px;
+}
+
+.info-wrapper:first-child .container, .info-wrapper:nth-child(2) .container {
+    width: 70%;
+}
+
+.info-details {
+    width: 10%;
+}
+
+.info-btn {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.cover.info-abs {
+    background-color: #848484;
+}
+
+.cover.info-abs:hover {
+    animation: none;
+}
+
+.info-abs {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.details-text {
+    text-align: center;
+}
+
+.info-wrapper:nth-child(2) {
+    background-color: #E4E4E4;
+    padding: 64px 0;
+}
+
+.info-title {
+    font-weight: 900;
+    width: 30%;
+}
+
+input[type="text"] {
+    font-family: "Rubik";
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+}
+
+input[type="button"] {
+    width: 30px;
+    height: 30px;
+    background-color: #848484;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
