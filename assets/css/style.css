@@ -247,7 +247,6 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   width: 50%;
 }
 
@@ -271,4 +270,8 @@ form {
 
 svg:last-child {
   margin-left: 7%;
+}
+
+footer {
+  background-color: #848484;
 }
