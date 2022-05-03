@@ -5,7 +5,7 @@ body {
 }
 
 section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .wrapper {
@@ -70,6 +70,7 @@ header {
 .container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .main-large {
@@ -134,7 +135,7 @@ header {
 }
 
 .catalog h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .catalog .container {
@@ -143,7 +144,7 @@ header {
 }
 
 .catalog .container:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .miniblock {
@@ -170,74 +171,107 @@ header {
 }
 
 .info-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info-wrapper {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
-.info-wrapper:first-child .container, .info-wrapper:nth-child(2) .container {
-    width: 70%;
+.info-wrapper:first-child .container,
+.info-wrapper:nth-child(2) .container {
+  width: 70%;
 }
 
 .info-details {
-    width: 10%;
+  width: 10%;
 }
 
 .info-btn {
-    width: 100%;
-    padding-top: 100%;
-    position: relative;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
 }
 
 .cover.info-abs {
-    background-color: #848484;
+  background-color: #848484;
 }
 
 .cover.info-abs:hover {
-    animation: none;
+  animation: none;
 }
 
 .info-abs {
-    position: absolute;
-    left: 0;
-    top: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .details-text {
-    text-align: center;
+  text-align: center;
 }
 
 .info-wrapper:nth-child(2) {
-    background-color: #E4E4E4;
-    padding: 64px 0;
+  background-color: #e4e4e4;
+  padding: 64px 0;
 }
 
 .info-title {
-    font-weight: 900;
-    width: 30%;
+  font-weight: 900;
+  width: 30%;
 }
 
 input[type="text"] {
-    font-family: "Rubik";
-    padding-bottom: 10px;
-    padding-left: 5px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    font-weight: 900;
+  font-family: "Rubik";
+  padding-bottom: 10px;
+  padding-left: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  font-weight: 900;
 }
 
 input[type="button"] {
-    width: 30px;
-    height: 30px;
-    background-color: #848484;
-    margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #848484;
+  margin-left: 20px;
 }
 
 form {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.info-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
+
+.info-content:last-child {
+  border-left: 2px solid black;
+}
+
+.info-media {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg:last-child {
+  margin-left: 7%;
+}
+
+footer {
+  background-color: #848484;
+}
